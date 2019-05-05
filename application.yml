@@ -6,15 +6,15 @@
 ---
 
 spring:
-  profiles:dev
+  profiles: dev
   application:
-    name:microservicecloud-config-university-dev
+    name: microservicecloud-config-university-dev
     
 ---
 
 spring:
-  profiles:test #测试环境
+  profiles: test #测试环境
   application:
-    name:microservicecloud-config-university-test
+    name: microservicecloud-config-university-test
 
 # 请保存为UTF-8
